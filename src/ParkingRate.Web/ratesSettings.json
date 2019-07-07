@@ -1,0 +1,58 @@
+{
+  "FlatRates": [
+    {
+      "name": "Early Bird",
+      "entryTimeRange": {
+        "start": "06:00",
+        "end": "09:00"
+      },
+      "exitTimeRange": {
+        "start": "15:30",
+        "end": "23:30"
+      },
+      "entryDaysRange": [1, 2, 3, 4, 5],
+      "exitDaysRange": [1, 2, 3, 4, 5],
+      "maxDays": 0,
+      "price": 130.00
+    },
+    {
+      "name": "Night Rate",
+      "entryTimeRange": {
+        "start": "18:00",
+        "end": "00:00"
+      },
+      "exitTimeRange": {
+        "start": "03:30",
+        "end": "11:30"
+      },
+      "entryDaysRange": [1, 2, 3, 4, 5],
+      "exitDaysRange": [1, 2, 3, 4, 5, 6],
+      "maxDays": 1,
+      "price": 6.50
+    },
+    {
+      "name": "Weekend Rate",
+      "entryTimeRange": {
+        "start": "00:00",
+        "end": "00:00"
+      },
+      "exitTimeRange": {
+        "start": "00:00",
+        "end": "00:00"
+      },
+      "entryDaysRange": [6, 0],
+      "exitDaysRange": [6, 0],
+      "maxDays": 1,
+      "price": 10.00
+    }
+  ],
+  "HourlyRate": {
+    "name": "Standard Rate",
+    "maxHours": 3,
+    "price": 5.00
+  },
+  "DefaultRate": {
+    "name": "Standard Rate",
+    "price": 20.00
+  }
+}
